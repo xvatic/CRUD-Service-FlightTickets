@@ -1,0 +1,142 @@
+USER:
+
+    CREATE:
+
+    URL: (POST)
+    /users
+
+    body:
+
+    {
+        "username":"example",
+        "password":example"
+    }
+
+    UPDATE:
+
+    URL:(PUT)
+    /users
+
+    body:
+
+    {
+        "id":1,
+        "username":"example",
+        "password":example"
+    }
+
+    DELETE:
+
+    URL:(DELETE)
+    /users/1(example)
+
+    READ:
+
+    URL:(GET)
+    /users?id=1
+
+
+
+AIRCRAFT:
+
+    CREATE:
+
+    URL: (POST)
+    /aircraft
+
+    body:
+
+    {
+        "capacity":1,
+        "manufacturer":example",
+        "model":example"
+    }
+
+    UPDATE:
+
+    URL:(PUT)
+    /aircraft
+
+    body:
+
+    {
+        "id":1,
+        "capacity":1,
+        "manufacturer":example",
+        "model":example"
+    }
+
+    DELETE:
+
+    URL:(DELETE)
+    /aircraft/1(example)
+
+    READ:
+
+    URL:(GET)
+    /aircraft?id=1
+
+
+FLIGHT:
+
+    CREATE:
+
+    URL: (POST)
+    /fligts
+
+    body:
+
+    {
+        "capacity":1,
+        "source":example",
+        "destination":example"
+    }
+
+    UPDATE:
+
+    URL:(PUT)
+    /flights
+
+    body:
+
+    {
+        "id":1,
+        "capacity":1,
+        "source":example",
+        "destination":example"
+    }
+
+    DELETE:
+
+    URL:(DELETE)
+    /flights/1(example)
+
+    READ:
+
+    URL:(GET)
+    /flights?id=1
+
+
+SPECIAL
+
+    REGISTER USER FOR FLIGHT:
+
+    URL:(PUT)
+        /flights/1
+
+        body:
+
+        {
+            "id":1 //id user
+        }
+
+    CHOOSE PLANE FOR FLIGHT:
+
+        URL:(PUT)
+            /flights/1
+
+        body:
+
+        {
+           "id":1 //id aircraft
+        }

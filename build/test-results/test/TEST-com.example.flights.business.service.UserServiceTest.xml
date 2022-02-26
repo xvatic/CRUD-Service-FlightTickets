@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.flights.business.service.UserServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-01-12T02:17:11" hostname="hlazkyau-ntb.wifi.nat" time="0.028">
+  <properties/>
+  <testcase name="registration()" classname="com.example.flights.business.service.UserServiceTest" time="0.004"/>
+  <testcase name="update()" classname="com.example.flights.business.service.UserServiceTest" time="0.003"/>
+  <testcase name="registrationDuplicate()" classname="com.example.flights.business.service.UserServiceTest" time="0.003"/>
+  <testcase name="getUser()" classname="com.example.flights.business.service.UserServiceTest" time="0.003"/>
+  <testcase name="login()" classname="com.example.flights.business.service.UserServiceTest" time="0.003"/>
+  <testcase name="deleteUser()" classname="com.example.flights.business.service.UserServiceTest" time="0.004"/>
+  <system-out><![CDATA[2022-01-12 03:17:11.495  INFO 81803 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.flights.business.service.UserServiceTest], using SpringBootContextLoader
+2022-01-12 03:17:11.496  INFO 81803 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.flights.business.service.UserServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-01-12 03:17:11.499  INFO 81803 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-01-12 03:17:11.499  INFO 81803 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2bba35ef, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@26c7b1c6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@19526f1d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3d1c933, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@79be91eb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@626c569b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@684ce74c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@65593327, org.springframework.test.context.event.EventPublishingTestExecutionListener@68e5c7ae, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68bd8ca7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6744707b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4b28a7bf, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d36c1c3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@96abc76, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4d69d288]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2022-01-12 03:17:11.524  INFO 81803 --- [    Test worker] c.e.f.business.service.UserServiceTest   : Starting UserServiceTest using Java 16.0.2 on hlazkyau-ntb.wifi.nat with PID 81803 (started by yauhenihlazkou in /Users/yauhenihlazkou/IdeaProjects/bi-tjv)
+2022-01-12 03:17:11.526  INFO 81803 --- [    Test worker] c.e.f.business.service.UserServiceTest   : No active profile set, falling back to default profiles: default
+2022-01-12 03:17:11.543  INFO 81803 --- [    Test worker] c.e.f.business.service.UserServiceTest   : Started UserServiceTest in 0.04 seconds (JVM running for 3.286)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
